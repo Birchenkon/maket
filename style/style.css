@@ -43,7 +43,12 @@ body{
 }
 /*шапка*/
 .header{
-	background-color: #abeafa;
+	background-image: url(../img/header2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-position-y: -190px;*/
+	background-size: cover;
+
     height: 700px;
 }
 .header .center{
@@ -149,6 +154,7 @@ body{
 .content .left .menu{
 	background-color: #26d2fc;
 	height: 475px;
+	margin-bottom: 30px;
 	display: flex;
 	flex-direction: column;
 
@@ -180,6 +186,21 @@ body{
 .menu a:visited{
 	color:  #333333;
 }
+.content .banner{
+	height: 300px;
+	box-sizing: border-box;
+	color: #fff51f;
+	background-image: url(../img/left_banner_img.jpg);
+	background-position: bottom;
+
+	font-family: 'Raleway_bold', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 800;
+	line-height: 1em;
+	padding: 129px 0px 0px 142px;
+}
+
 .footer_1{
 	background-color: #373737;
 	height: 300px;
