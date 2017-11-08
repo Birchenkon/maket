@@ -356,8 +356,22 @@ body{
 }
 .footer_2{
 	background-color: #333333;
+	color: #dad9d9;
 	height: 50px;
 	margin: 0px;
 	padding: 0px;
-	color: white;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.footer_2 .center{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_2 .center div:first-child{
+	font-family: Raleway_regular,sans-serif;
+	font-size: 1em;
+}
+.footer_2 a{
+	color: #dad9d9;
+	padding-left: 8px;
 }
