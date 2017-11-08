@@ -132,14 +132,60 @@ body{
 /*контент*/
 .container{
 	min-height: 500px;
+	display: flex;
+	flex-direction: column;
 }
+.content {
+	
+	display: flex;
+	flex-direction: column;
+	margin-top: -20px;
+}
+.content .left{
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+}
+.content .left .menu{
+	background-color: #26d2fc;
+	height: 475px;
+	display: flex;
+	flex-direction: column;
 
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.menu p{
+	padding-left: 42px;
+	margin: 0px 0px 0px 0px;
+    font-family: 'Roboto_bold', sans-serif;
+    font-weight: 700;
+    line-height: 4.5em;
+    color: #ffffff;
+    background-color: #333333;
+}
+.menu a{
+	padding-left: 42px;
+	font-family: 'Roboto_black', sans-serif;
+	line-height: 2.6em;
+	color:  #000000;
+	text-decoration-line: none;
+	width: inherit;
+}
+.menu a:hover{
+	background-color:  #333333;
+	color:  #ffffff;
+	font-weight: 900;
+}
+.menu a:visited{
+	color:  #333333;
+}
 .footer_1{
-	background-color:  #373737;
+	background-color: #373737;
 	height: 300px;
 }
 .footer_2{
-	background-color:  #333333;
+	background-color: #333333;
 	height: 50px;
 	margin: 0px;
 	padding: 0px;
