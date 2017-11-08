@@ -41,6 +41,7 @@ body{
 	height: inherit;
 	margin: 0 auto;
 }
+/*шапка*/
 .header{
 	background-color: #abeafa;
     height: 700px;
@@ -61,7 +62,6 @@ body{
 	margin-top: 201px;
 	background-color: #fff51f;
 
-
 	font-family: 'Raleway_bold', sans-serif;
 	color: #333333;
 	text-align: left;
@@ -81,7 +81,6 @@ body{
 	font-size: 1.5em;
 	line-height: 0.8em;
 	margin: 0;
-
 }
 .header .right{
 	display: flex;
@@ -108,7 +107,7 @@ body{
 	margin-top: 62px;
 	background-color: #fff51f;
 	color: black;
-	margin-top: 62px;
+	
 	font-family: 'Raleway_heavy', sans-serif;
 	font-weight: 800;
 	font-size: 1.3em; 
@@ -130,9 +129,11 @@ body{
 	line-height: 1.3em;
 	margin: 0;
 }
+/*контент*/
 .container{
 	min-height: 500px;
 }
+
 .footer_1{
 	background-color:  #373737;
 	height: 300px;
