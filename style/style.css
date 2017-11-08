@@ -37,16 +37,17 @@ body{
 }
 .center{
 	min-width: 700px;
-	width: 1000px;
+	width: 1200px;
 	height: inherit;
 	margin: 0 auto;
 }
 /*шапка*/
 .header{
-	background-image: url(../img/header2.jpg);
+	/*background-image: url(../img/header2.jpg);*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/*background-position-y: -190px;*/
+	background-image: url(../img/header.jpg);
+	background-position-y: -190px;
 	background-size: cover;
 
     height: 700px;
@@ -137,13 +138,13 @@ body{
 /*контент*/
 .container{
 	min-height: 500px;
+	background-color: #f8f8f8;
 	display: flex;
 	flex-direction: column;
 }
 .content {
-	
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 	margin-top: -20px;
 }
 .content .left{
@@ -200,7 +201,77 @@ body{
 	line-height: 1em;
 	padding: 129px 0px 0px 142px;
 }
+.products{
+	font-family: Roboto_black, sans-serif;
+	font-weight: 900;
+	color:#333333;
+	width: 870px;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	
+}
+.products h2{
+	text-transform: uppercase;
+	color:  #707070;
+	font-size: 1.9em;
+	font-style: italic;
+	padding-left: 25px;
 
+}
+.products .new{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -30px;
+}
+.products .new div:not([class]){
+	width: 270px;
+	height: 320px;
+	box-sizing: border-box;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	
+}
+.products .img{
+	width: 250px;
+	height: 235px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #eaeaea;
+	background-position: center;
+	background-image: url(../img/b_pop_singlethruster.png);
+
+	background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.products .name{
+	width: 135px;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-style: italic;
+	margin-left: 26px;
+	margin-top: 24px;
+}
+.products .price{
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: -1em;
+}
+.products .old_price{
+	font-size: 1.1em;
+	font-style: italic;
+	color: #e24602;
+	text-decoration-line: line-through;
+	text-align: right;
+	margin-right: 10px;
+	/*margin-top: -1em;*/
+}
 .footer_1{
 	background-color: #373737;
 	height: 300px;
