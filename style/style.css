@@ -299,8 +299,9 @@ body{
 	color: #e24602;
 	text-decoration-line: line-through;
 	text-align: right;
-	margin-right: 10px;
-	margin-top: -10px;
+	position: absolute;
+	align-self: flex-end;
+    margin: 284px 0px 0px -10px;
 
 }
 .social{
