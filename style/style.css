@@ -1,0 +1,54 @@
+@font-face{
+font-family: 'Raleway_bold';
+src: url('../fonts/Raleway/Raleway-Bold.ttf');
+
+}
+@font-face{
+font-family: 'Raleway_regular';
+src: url('../fonts/Raleway/Raleway-Regular.ttf');
+
+}
+@font-face{
+font-family: 'Raleway_heavy';
+src: url('../fonts/Raleway/Raleway-Heavy.ttf');
+
+}
+@font-face{
+font-family: 'Roboto_bold';
+src: url('../fonts/Roboto/Roboto-Bold.ttf');
+
+}
+@font-face{
+font-family: 'Roboto_black';
+src: url('../fonts/Roboto/Roboto-Black.ttf');
+
+}
+@font-face{
+font-family: 'Roboto_regular';
+src: url('../fonts/Roboto/Roboto-Regular.ttf');
+
+}
+body{
+
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	background-color: #abeafa;
+    height: 700px;
+}
+.container{
+	min-height: 500px;
+}
+.footer_1{
+	background-color:  #373737;
+	height: 300px;
+}
+.footer_2{
+	background-color:  #333333;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
